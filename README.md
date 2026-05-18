@@ -1,6 +1,8 @@
-# Agent Plugins
+# Lytics Agent Plugins
 
 Public plugin examples and tooling for agent platforms, focused on practical workflows for real customer operations.
+
+> Unofficial project: this repository is community-maintained and is **not an official Lytics repository**. It is based on concepts and assets from [lytics/agent-skills](https://github.com/lytics/agent-skills).
 
 ## Purpose
 

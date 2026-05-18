@@ -1,7 +1,7 @@
 {
-  "name": "agent-plugins",
+  "name": "lytics-agent-plugins",
   "version": "0.1.0",
-  "description": "Plugin-focused assets for Claude Cowork and related agent platforms, including secure multi-account command patterns.",
+  "description": "Lytics Agent Plugins: plugin-focused assets for Claude Cowork and related agent platforms, including secure multi-account command patterns.",
   "author": {
     "name": "Sean McMahon",
     "url": "https://github.com/sean-cstk"

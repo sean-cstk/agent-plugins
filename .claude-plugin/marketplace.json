@@ -1,12 +1,12 @@
 {
-  "name": "sean-cstk-plugins",
+  "name": "lytics-agent-plugins-marketplace",
   "owner": {
     "name": "Sean McMahon",
     "url": "https://github.com/sean-cstk"
   },
   "plugins": [
     {
-      "name": "agent-plugins",
+      "name": "lytics-agent-plugins",
       "source": ".",
       "description": "Plugin-focused toolkit for Claude Cowork, including secure multi-account command patterns."
     }
