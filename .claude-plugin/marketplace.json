@@ -1,0 +1,14 @@
+{
+  "name": "sean-cstk-plugins",
+  "owner": {
+    "name": "Sean McMahon",
+    "url": "https://github.com/sean-cstk"
+  },
+  "plugins": [
+    {
+      "name": "agent-plugins",
+      "source": ".",
+      "description": "Plugin-focused toolkit for Claude Cowork, including secure multi-account command patterns."
+    }
+  ]
+}

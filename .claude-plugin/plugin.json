@@ -1,0 +1,12 @@
+{
+  "name": "agent-plugins",
+  "version": "0.1.0",
+  "description": "Plugin-focused assets for Claude Cowork and related agent platforms, including secure multi-account command patterns.",
+  "author": {
+    "name": "Sean McMahon",
+    "url": "https://github.com/sean-cstk"
+  },
+  "repository": "https://github.com/sean-cstk/agent-plugins",
+  "license": "MIT",
+  "keywords": ["plugins", "claude", "cowork", "security", "multi-account"]
+}
