@@ -1,5 +1,6 @@
 {
   "name": "lytics-agent-plugins-marketplace",
+  "description": "Unofficial Lytics-oriented agent plugins for Claude Cowork and related agent platforms.",
   "owner": {
     "name": "Sean McMahon",
     "url": "https://github.com/sean-cstk"
@@ -7,7 +8,7 @@
   "plugins": [
     {
       "name": "lytics-agent-plugins",
-      "source": ".",
+      "source": "./plugins/lytics-agent-plugins",
       "description": "Plugin-focused toolkit for Claude Cowork, including secure multi-account command patterns."
     }
   ]

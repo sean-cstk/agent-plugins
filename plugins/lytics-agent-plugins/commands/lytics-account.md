@@ -1,6 +1,6 @@
 ---
 description: Switch the active Lytics customer account for this session by loading their .env file
-argument-hint: [slug] | (no args to list) | --show
+argument-hint: "[slug] | (no args to list) | --show"
 ---
 
 You are loading Lytics API credentials for a specific customer account into the current session. The user invoked `/lytics-account` with arguments: `$ARGUMENTS`.

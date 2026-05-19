@@ -19,10 +19,10 @@ Initial focus areas:
 
 This repo intentionally contains plugin scaffolding and command/reference assets, not `SKILL.md` skill directories.
 
-- `.claude-plugin/plugin.json` — plugin manifest
 - `.claude-plugin/marketplace.json` — single-plugin marketplace manifest
-- `commands/lytics-account.md` — slash command for account switching via `.env`
-- `references/auth.md` — token security policy and credential resolution chain
+- `plugins/lytics-agent-plugins/.claude-plugin/plugin.json` — plugin manifest
+- `plugins/lytics-agent-plugins/commands/lytics-account.md` — slash command for account switching via `.env`
+- `plugins/lytics-agent-plugins/references/auth.md` — token security policy and credential resolution chain
 
 ## Platform Setup Guide
 
@@ -44,7 +44,7 @@ Status: plugin behavior is build-dependent. Custom commands are reliable.
 1. Install this command globally:
    ```bash
    mkdir -p ~/.claude/commands
-   ln -sf /Users/smcmahon-lytics/go/src/github.com/sean-cstk/agent-plugins/commands/lytics-account.md ~/.claude/commands/lytics-account.md
+   ln -sf /Users/smcmahon-lytics/go/src/github.com/sean-cstk/agent-plugins/plugins/lytics-agent-plugins/commands/lytics-account.md ~/.claude/commands/lytics-account.md
    ```
 2. Open or restart Claude Code.
 3. Run `/help` and confirm `/lytics-account` appears in **Custom commands**.
@@ -53,21 +53,21 @@ Status: plugin behavior is build-dependent. Custom commands are reliable.
 
 Status: no direct `.claude-plugin` install path.
 
-1. Use `references/auth.md` as the credential policy source.
+1. Use `plugins/lytics-agent-plugins/references/auth.md` as the credential policy source.
 2. Set credentials in your shell environment before starting Codex:
    ```bash
    export LYTICS_API_TOKEN=...
    export LYTICS_API_URL=https://api.lytics.io
    ```
-3. Reuse `commands/lytics-account.md` logic if you want a local multi-account loader.
+3. Reuse `plugins/lytics-agent-plugins/commands/lytics-account.md` logic if you want a local multi-account loader.
 
 ### GitHub Copilot CLI
 
 Status: no direct `.claude-plugin` install path.
 
 1. Use the same environment-variable credential pattern as Codex.
-2. Reuse `references/auth.md` for token handling rules.
-3. If you need account switching by slug, port the `commands/lytics-account.md` logic into a shell helper.
+2. Reuse `plugins/lytics-agent-plugins/references/auth.md` for token handling rules.
+3. If you need account switching by slug, port the `plugins/lytics-agent-plugins/commands/lytics-account.md` logic into a shell helper.
 
 ## Cowork Notes
 
